@@ -1,0 +1,47 @@
+@import '../../assets/styles/veriables.scss';
+
+
+.accountWrapper {
+  margin-bottom: 50px;
+}
+
+.accountWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.transferWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.accountNumber {
+  margin: 0;
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 40px;
+  letter-spacing: -0.02em;
+}
+.balanceWrapper {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.balanceTitle {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  color: $black;
+}
+
+.balanceCount {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: -0.02em;
+  color: $black;
+}

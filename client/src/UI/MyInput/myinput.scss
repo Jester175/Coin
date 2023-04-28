@@ -1,0 +1,15 @@
+@import "../../assets/styles/veriables.scss";
+
+.input {
+  padding: 10px 0px 10px 16px;
+  width: 100%;
+  max-width: 300px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.01em;
+  color: $gray-4;
+  background: $white;
+  border: 1px solid $gray-5;
+  border-radius: 7px;
+}

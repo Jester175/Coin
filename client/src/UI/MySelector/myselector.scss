@@ -1,0 +1,101 @@
+@import "../../assets/styles/veriables.scss";
+
+.select-menu {
+  position: relative;
+  width: 100%;
+  max-width: 300px;
+  background: $white;
+  border: 1px solid $base-color;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.select {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 50px 10px 16px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.01em;
+  color: $gray-2;
+  .checkMarker {
+    display: none;
+  }
+}
+
+.options-list {
+  position: absolute;
+  top: 46px;
+  left: 0;
+  padding: 10px 0;
+  width: 100%;
+  max-height: 150px;
+  overflow-y: auto;
+  opacity: 0;
+  transition: 0.3s linear 0.2s;
+  background: $white;
+  border-radius: 7px;
+  visibility: hidden;
+  filter: drop-shadow(0px 20px 20px rgba(0, 0, 0, 0.25));
+
+  &::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  /* Track */
+  &::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 7px;
+  }
+
+  /* Handle */
+  &::-webkit-scrollbar-thumb {
+    background: $base-color;
+    border-radius: 7px;
+  }
+}
+
+.option {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 16px;
+  font-weight: 500;
+  font-size: 14px;
+  transition: 0.1s ease-in-out;
+
+  svg {
+    width: 17px;
+    height: 13px;
+    opacity: 0;
+  }
+}
+
+.option:hover,
+.option.selected {
+  background-color: $active-color;
+}
+
+.option.selected svg {
+  opacity: 1;
+}
+
+.options-list.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+.arrow {
+  position: absolute;
+  top: 50%;
+  right: 23px;
+  transform: translateY(-50%);
+  transition: 0.3s ease-in-out;
+}
+
+.arrow.active {
+  transform: rotate(-180deg) translateY(35%);
+}

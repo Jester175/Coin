@@ -1,0 +1,75 @@
+@import "../../assets/styles/veriables.scss";
+
+.currencyBlock {
+  padding: 50px;
+  width: 100%;
+  background: $white;
+  box-shadow: 0px 5px 20px $box-shadow;
+  border-radius: 50px;
+
+  &__title {
+    margin: 0;
+    margin-bottom: 25px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: -0.02em;
+    color: $black;
+  }
+
+  &__rate {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    max-height: 263px;
+    overflow-y: auto;
+
+    &::-webkit-scrollbar {
+      width: 10px;
+    }
+
+    /* Track */
+    &::-webkit-scrollbar-track {
+      background: #f1f1f1;
+    }
+
+    /* Handle */
+    &::-webkit-scrollbar-thumb {
+      background: $base-color;
+    }
+  }
+
+  &__wrapper {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  &__nameCurrency {
+    margin: 0;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.1em;
+    color: $black;
+  }
+
+  &__customline {
+    align-self: flex-end;
+    width: 100%;
+    border-bottom: 1px dashed $black;
+  }
+
+  &__account {
+    margin: 0;
+    padding-right: 20px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.1em;
+    color: $black;
+  }
+}

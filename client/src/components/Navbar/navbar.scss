@@ -1,0 +1,10 @@
+@import '../../assets/styles/veriables.scss';
+
+.navbar {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  &__btn--active {
+    background-color: $active-color;
+  }
+}

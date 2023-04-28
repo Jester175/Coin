@@ -1,0 +1,55 @@
+@import "../../assets/styles/veriables.scss";
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 40px;
+  width: 100%;
+  max-width: 500px;
+  background: $gray-7;
+  border-radius: 50px;
+}
+
+.form__wrapper {
+  max-width: 300px;
+}
+
+.wrapperInputs {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.form__title {
+  margin-bottom: 35px;
+}
+
+.form__btn {
+  margin-top: 30px;
+}
+
+.wrapperInput {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.form__label {
+  position: absolute;
+  top: 12px;
+}
+
+.form__login {
+  left: -65px;
+}
+
+.form__password {
+  left: -75px;
+}
+
+.errorBorder {
+  border: 1px solid $red;
+}
+

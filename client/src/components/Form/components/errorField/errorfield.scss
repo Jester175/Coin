@@ -1,0 +1,12 @@
+@import "../../../../assets/styles/veriables.scss";
+
+.errorField {
+  margin-top: -2px;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.02em;
+  color: $red;
+}

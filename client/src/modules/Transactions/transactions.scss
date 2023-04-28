@@ -1,0 +1,16 @@
+.transactions {
+  &__transactionsWrapper {
+    padding: 50px 0;
+  }
+  &__history {
+    cursor: default;
+  }
+  &__barChart {
+    margin-bottom: 50px;
+    cursor: default;
+  }
+  &__barChartDifference {
+    margin-bottom: 50px;
+    cursor: default;
+  }
+}

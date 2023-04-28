@@ -1,0 +1,26 @@
+.account__main {
+  padding: 50px 0;
+  .wrapper {
+    display: flex;
+    align-items: center;
+    .account__title {
+      margin-right: 35px;
+    }
+    .account__btn {
+      display: flex;
+      align-items: center;
+      flex-direction: row-reverse;
+      margin-left: auto;
+      svg {
+        width: 24px;
+        height: 24px;
+      }
+    }
+  }
+  .accounts {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 70px;
+    margin: 50px 0;
+  }
+}

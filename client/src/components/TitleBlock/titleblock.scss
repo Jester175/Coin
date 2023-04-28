@@ -1,0 +1,19 @@
+.titleWrapper {
+  margin-bottom: 30px;
+}
+
+.titleWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.btnBack {
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  svg {
+    width: 24px;
+    height: 24px;
+  }
+}

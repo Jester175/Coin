@@ -1,0 +1,17 @@
+@import "../../assets/styles/veriables.scss";
+
+.btn {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  padding: 16px 21.5px;
+  background-color: $base-color;
+  border-radius: 7px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: -0.01em;
+  color: $white;
+}

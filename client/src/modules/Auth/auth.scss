@@ -1,0 +1,10 @@
+#auth-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: calc(50% - 150px);
+  left: 50%;
+  transform: translate(-50%);
+  width: 100%;
+}
