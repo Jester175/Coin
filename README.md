@@ -1,4 +1,6 @@
-Авторизация
+Авторизация<br>
+Login: developer <br>
+Password: frontend <br>
 ![Иллюстрация к проекту](https://github.com/Jester175/Coin/blob/main/client/src/assets/images/github/auth.png)
 
 Личный счет
